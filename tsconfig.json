@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "esnext",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "*": ["./node_modules/*"],
+      "~/*": ["./src/*"]
+    },
+    "incremental": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
